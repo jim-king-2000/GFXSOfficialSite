@@ -1,6 +1,6 @@
-import { Box, Anchor, DropButton, Heading, Text } from 'grommet'
+import { Box, Anchor, DropButton, Heading } from 'grommet'
 
-function Preface() {
+function ProductCenter() {
   return <DropButton
     dropAlign={{ top: 'bottom', left: 'left' }}
     dropContent={
@@ -26,14 +26,14 @@ function Preface() {
       </Box>
     }
   >
-    <Text>首页</Text>
+    <Anchor>产品中心</Anchor>
   </DropButton>
 }
 
 function MyLinks() {
   return <Box direction='row' align='center' flex justify='between' margin='small'>
-    <Preface />
-    <Anchor>产品中心</Anchor>
+    <Anchor>首页</Anchor>
+    <ProductCenter />
     <Anchor>开发者</Anchor>
     <Anchor>平台</Anchor>
     <Anchor>关于光方</Anchor>
