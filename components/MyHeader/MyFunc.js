@@ -2,7 +2,7 @@ import { Box } from 'grommet'
 import { Search, User, Cart } from 'grommet-icons'
 
 function MyFunc() {
-  return <Box direction='row' gap='medium' align='center'>
+  return <Box direction='row' gap='large' align='center' margin='small'>
     <Search />
     <User />
     <Cart />
