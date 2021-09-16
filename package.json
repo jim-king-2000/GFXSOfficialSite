@@ -1,0 +1,29 @@
+{
+  "name": "gfxsofficialsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-king-2000/GFXSOfficialSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jim-king-2000/GFXSOfficialSite/issues"
+  },
+  "homepage": "https://github.com/jim-king-2000/GFXSOfficialSite#readme",
+  "dependencies": {
+    "grommet": "^2.17.5",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
