@@ -2,6 +2,7 @@ import { Box, Anchor, DropButton, Heading } from 'grommet'
 
 function ProductCenter() {
   return <DropButton
+    fill='vertical'
     dropAlign={{ top: 'bottom', left: 'left' }}
     dropContent={
       <Box direction='row' gap='large' margin='large'>
@@ -31,7 +32,7 @@ function ProductCenter() {
 }
 
 function MyLinks() {
-  return <Box direction='row' align='center' flex justify='between' margin='small'>
+  return <Box direction='row' align='center' flex justify='between'>
     <Anchor>首页</Anchor>
     <ProductCenter />
     <Anchor>开发者</Anchor>
