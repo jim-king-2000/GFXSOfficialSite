@@ -32,7 +32,7 @@ function ProductCenter() {
 }
 
 function MyLinks() {
-  return <Box direction='row' align='center' flex justify='between'>
+  return <Box direction='row' align='center' flex justify='between' margin={{ horizontal: 'small' }}>
     <Anchor>首页</Anchor>
     <ProductCenter />
     <Anchor>开发者</Anchor>
