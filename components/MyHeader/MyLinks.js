@@ -1,6 +1,9 @@
 import { Box, Anchor, DropButton, Heading } from 'grommet'
+import useTranslation from 'next-translate/useTranslation'
 
 function ProductCenter() {
+  const { t } = useTranslation('common')
+
   return <DropButton
     fill='vertical'
     dropAlign={{ top: 'bottom', left: 'left' }}
@@ -27,17 +30,19 @@ function ProductCenter() {
       </Box>
     }
   >
-    <Anchor>产品中心</Anchor>
+    <Anchor>{t('product-center')}</Anchor>
   </DropButton>
 }
 
 function MyLinks() {
+  const { t } = useTranslation('common')
+
   return <Box direction='row' align='center' flex justify='between' margin={{ horizontal: 'small' }}>
-    <Anchor>首页</Anchor>
+    <Anchor>{t('home-page')}</Anchor>
     <ProductCenter />
-    <Anchor>开发者</Anchor>
-    <Anchor>平台</Anchor>
-    <Anchor>关于光方</Anchor>
+    <Anchor>{t('developers')}</Anchor>
+    <Anchor>{t('platforms')}</Anchor>
+    <Anchor>{t('about')}</Anchor>
   </Box>
 }
 
