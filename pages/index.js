@@ -1,7 +1,4 @@
 import withLayout from '../components/withLayout'
+import MyHome from '../components/MyHome'
 
-function HomePage() {
-  return <div>网站建设中……</div>
-}
-
-export default withLayout(HomePage)
+export default withLayout(MyHome)
