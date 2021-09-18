@@ -1,7 +1,8 @@
 {
   "home-page": "Home",
+  "shop": "Shop",
   "product-center": "Products",
-  "developers": "Developers",
-  "platforms": "Platforms",
+  "developers": "Partners & Developers",
+  "service": "Services & Downloads",
   "about": "About"
 }

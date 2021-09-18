@@ -41,7 +41,7 @@ function MyLinks() {
     <Anchor>{t('home-page')}</Anchor>
     <ProductCenter />
     <Anchor>{t('developers')}</Anchor>
-    <Anchor>{t('platforms')}</Anchor>
+    <Anchor>{t('service')}</Anchor>
     <Anchor>{t('about')}</Anchor>
   </Box>
 }
