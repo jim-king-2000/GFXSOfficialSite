@@ -13,14 +13,16 @@ const lngMap = new Map([
 function LngSelector() {
   const { lang } = useTranslation()
 
-  return <Select
-    options={locales}
-    value={lang}
-    onChange={({ option }) => setLanguage(option)}
-    valueLabel={lngMap.get(lang)}
-  >
-    {(option) => lngMap.get(option)}
-  </Select>
+  return (
+    <Select
+      options={locales}
+      value={lang}
+      onChange={({ option }) => setLanguage(option)}
+      valueLabel={lngMap.get(lang)}
+    >
+      {(option) => lngMap.get(option)}
+    </Select>
+  )
 }
 
 export default LngSelector

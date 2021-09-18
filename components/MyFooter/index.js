@@ -1,12 +1,14 @@
-import { Box, Text } from 'grommet'
+import { Box } from 'grommet'
 import LngSelector from './LngSelector'
 
 function MyFooter({ width }) {
-  return <Box background='light-1' align='center'>
-    <Box width={width} direction='row'>
-      <LngSelector />
+  return (
+    <Box background='light-1' align='center' pad='medium'>
+      <Box width={width} direction='row'>
+        <LngSelector />
+      </Box>
     </Box>
-  </Box>
+  )
 }
 
 export default MyFooter

@@ -2,7 +2,15 @@
   "home-page": "Home",
   "shop": "Shop",
   "product-center": "Products",
-  "developers": "Partners & Developers",
+  "developers": "Developers",
   "service": "Services & Downloads",
-  "about": "About"
+  "partners": "Partners",
+  "about": "About",
+  "products-prompt": "Guide you to great products",
+  "modules": "Modules",
+  "more": "more",
+  "class-visual": "Visual",
+  "class-network": "Network",
+  "boards-core": "Core Boards",
+  "boards-dev": "Development Boards"
 }
