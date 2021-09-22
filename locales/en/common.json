@@ -4,7 +4,7 @@
   "shop": "Shop",
   "product-center": "Products",
   "developers": "Developers",
-  "service": "Services & Downloads",
+  "services": "Services & Downloads",
   "partners": "Partners",
   "about": "About",
   "products-prompt": "Guide you to great products",
@@ -32,5 +32,17 @@
   "partner-title": "Be a partner of Guang Fang, win together.",
   "partner-desc": "Be a partner of Guang Fang. Create the future together with Guang Fang.",
   "login": "login",
-  "store": "My Store"
+  "store": "My Store",
+  "questions": "Questions",
+  "faq": "FAQ",
+  "account": "Account",
+  "support": "Support",
+  "need-to-know": "Need to know",
+  "support-services": "Support Services",
+  "networking-service": "Networking Services",
+  "device-management": "Device Management",
+  "order": "Order",
+  "download-center": "Download Center",
+  "user-guide": "User Guide",
+  "client": "Client Software"
 }

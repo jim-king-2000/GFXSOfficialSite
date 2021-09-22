@@ -16,7 +16,9 @@ function MyLinks() {
       <Link href='/developers'>
         <Anchor>{t('developers')}</Anchor>
       </Link>
-      <Anchor>{t('service')}</Anchor>
+      <Link href='/services'>
+        <Anchor>{t('services')}</Anchor>
+      </Link>
       <Link href='/partners'>
         <Anchor>{t('partners')}</Anchor>
       </Link>
