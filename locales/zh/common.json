@@ -14,5 +14,19 @@
   "class-network": "联网类",
   "boards-core": "核心板",
   "boards-dev": "开发板",
-  "copy-right": "© 2021 光方讯视 版权所有"
+  "copy-right": "© 2021 光方讯视 版权所有",
+  "getting-started": "入门",
+  "overview": "概述",
+  "resources": "资源",
+  "document": "文档",
+  "sample-code": "代码示例",
+  "tools": "工具",
+  "white-papers": "白皮书",
+  "videos-tutorials": "视频和教程",
+  "3rd-softwares": "第三方软件",
+  "softwares-for-guangfang": "为光方开发的软件",
+  "vendors": "开发服务商",
+  "community": "社区",
+  "forum": "讨论",
+  "seminar-activity": "研讨会 & 活动"
 }

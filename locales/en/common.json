@@ -14,5 +14,19 @@
   "class-network": "Network",
   "boards-core": "Core Boards",
   "boards-dev": "Development Boards",
-  "copy-right": "© 2021 Guang Fang Xun Shi, All Rights Reserved"
+  "copy-right": "© 2021 Guang Fang Xun Shi, All Rights Reserved",
+  "getting-started": "Getting started",
+  "overview": "Overview",
+  "resources": "Resources",
+  "document": "Document",
+  "sample-code": "Sample code",
+  "tools": "Tools",
+  "white-papers": "White papers",
+  "videos-tutorials": "Videos & Tutorials",
+  "3rd-softwares": "3rd Softwares",
+  "softwares-for-guangfang": "Softwares for Guangfang",
+  "vendors": "Software vendors",
+  "community": "Community",
+  "forum": "Forum",
+  "seminar-activity": "Seminars and Activities"
 }
