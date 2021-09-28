@@ -11,7 +11,7 @@ function MyFooter({ width }) {
       </Box>
       <Box direction='row' gap='small'>
         <Text>{t('copy-right')}</Text>
-        <Anchor href='https://beian.miit.gov.cn' label='沪ICP备2021027599号'/>
+        <Anchor href='https://beian.miit.gov.cn' label='沪ICP备2021027599号' target="_Blank"/>
       </Box>
     </Box>
   )
