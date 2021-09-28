@@ -82,6 +82,27 @@ function MyProducts() {
           </Box>
         </Box>
       </Box>
+      <Box fill='horizontal' gap='large' border='between'>
+        <Box direction='row' justify='between' align='center'>
+          <Heading margin='none' level={3}>{t('ecology')}</Heading>
+          <Anchor>{t('more')} &gt;</Anchor>
+        </Box>
+        <Box gap='small'>
+          <Box direction='row' justify='between'>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+              <Text width='300px' textAlign ='center'>{t('face-swiping-payment-device')}</Text>
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+              <Text width='300px' textAlign ='center'>{t('door-access')}</Text>
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+            </Box>
+          </Box>
+        </Box>
+      </Box>
     </Box>
   )
 }

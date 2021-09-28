@@ -49,5 +49,8 @@
   "camera-3d-uvc":"3D结构光 GF02(UVC)",
   "cat-one":"Cat.1",
   "mtk8788":"MTK-8788 核心板",
-  "cat-one-kit":"Cat.1 开发板"
+  "cat-one-kit":"Cat.1 开发板",
+  "ecology":"生态",
+  "face-swiping-payment-device":"刷脸支付终端",
+  "door-access":" 刷脸门禁"
 }

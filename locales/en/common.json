@@ -49,5 +49,8 @@
   "camera-3d-uvc":"3D Structured Light GF02(UVC)",
   "cat-one":"Cat.1",
   "mtk8788":"MTK-8788 Core Board",
-  "cat-one-kit":"Cat.1 Development Board"
+  "cat-one-kit":"Cat.1 Development Board",
+  "ecology":"Ecology",
+  "face-swiping-payment-device":"Face-swiping payment terminal",
+  "door-access":"Face-swiping door access"
 }
