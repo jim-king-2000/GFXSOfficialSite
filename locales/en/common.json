@@ -44,5 +44,10 @@
   "order": "Order",
   "download-center": "Download Center",
   "user-guide": "User Guide",
-  "client": "Client Software"
+  "client": "Client Software",
+  "camera-3d":"3D Structured Light GF01",
+  "camera-3d-uvc":"3D Structured Light GF02(UVC)",
+  "cat-one":"Cat.1",
+  "mtk8788":"MTK-8788 Core Board",
+  "cat-one-kit":"Cat.1 Development Board"
 }

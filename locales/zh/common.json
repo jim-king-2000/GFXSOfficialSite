@@ -44,5 +44,10 @@
   "order": "商品订购",
   "download-center": "下载中心",
   "user-guide": "用户指南",
-  "client": "客户端"
+  "client": "客户端",
+  "camera-3d":"3D结构光 GF01",
+  "camera-3d-uvc":"3D结构光 GF02(UVC)",
+  "cat-one":"Cat.1",
+  "mtk8788":"MTK-8788 核心板",
+  "cat-one-kit":"Cat.1 开发板"
 }

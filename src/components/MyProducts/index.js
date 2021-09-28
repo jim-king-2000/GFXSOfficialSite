@@ -7,8 +7,6 @@ function MyProducts() {
   return (
     <Box align='center' gap='large' margin='large'>
       <Heading margin='none'>{t('product-center')}</Heading>
-      <Text>{t('products-prompt')}</Text>
-      <Box width='640px' height='480px' background='white' />
       <Box fill='horizontal' gap='large' border='between'>
         <Box direction='row' justify='between' align='center'>
           <Heading margin='none' level={3}>{t('modules')}</Heading>
@@ -17,15 +15,30 @@ function MyProducts() {
         <Box gap='small'>
           <Box direction='row' justify='between'>
             <Heading margin='none' level={3}>{t('class-visual')}</Heading>
-            <Box width='300px' height='300px' background='white' />
-            <Box width='300px' height='300px' background='white' />
-            <Box width='300px' height='300px' background='white' />
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+              <Text width='300px' textAlign ='center'>{t('camera-3d')}</Text>
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+              <Text width='300px' textAlign ='center'>{t('camera-3d-uvc')}</Text>
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+            </Box>
           </Box>
           <Box direction='row' justify='between'>
             <Heading margin='none' level={3}>{t('class-network')}</Heading>
-            <Box width='300px' height='300px' background='white' />
-            <Box width='300px' height='300px' background='white' />
-            <Box width='300px' height='300px' background='white' />
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+              <Text width='300px' textAlign ='center'>{t('cat-one')}</Text>
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+            </Box>
           </Box>
         </Box>
       </Box>
@@ -36,9 +49,16 @@ function MyProducts() {
         </Box>
         <Box gap='small'>
           <Box direction='row' justify='between'>
-            <Box width='300px' height='300px' background='white' />
-            <Box width='300px' height='300px' background='white' />
-            <Box width='300px' height='300px' background='white' />
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+              <Text width='300px' textAlign ='center'>{t('mtk8788')}</Text>
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+            </Box>
           </Box>
         </Box>
       </Box>
@@ -49,9 +69,16 @@ function MyProducts() {
         </Box>
         <Box gap='small'>
           <Box direction='row' justify='between'>
-            <Box width='300px' height='300px' background='white' />
-            <Box width='300px' height='300px' background='white' />
-            <Box width='300px' height='300px' background='white' />
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+              <Text width='300px' textAlign ='center'>{t('cat-one-kit')}</Text>
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+            </Box>
+            <Box>
+              <Box width='300px' height='300px' background='white' />
+            </Box>
           </Box>
         </Box>
       </Box>
