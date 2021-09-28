@@ -1,0 +1,10 @@
+{
+  apps: [
+    {
+      name: 'officialSite',
+      script: 'npx next start -p 3000',
+      exec_mode: 'fork',
+      instances: 1,
+    },
+  ],
+}
