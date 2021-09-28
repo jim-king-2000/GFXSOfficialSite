@@ -6,7 +6,7 @@ import { Grommet, Box } from 'grommet'
 import { grommet } from 'grommet/themes'
 import useTranslation from 'next-translate/useTranslation'
 
-const WIDTH = '1440px'
+const WIDTH = '1280px'
 
 function withLayout(Content) {
   return () => {
