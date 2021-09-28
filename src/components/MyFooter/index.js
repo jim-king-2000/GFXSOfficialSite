@@ -1,5 +1,5 @@
 import LngSelector from './LngSelector'
-import { Box, Text } from 'grommet'
+import { Box, Text, Anchor } from 'grommet'
 import useTranslation from 'next-translate/useTranslation'
 
 function MyFooter({ width }) {
@@ -9,7 +9,10 @@ function MyFooter({ width }) {
       <Box width={width} direction='row'>
         <LngSelector />
       </Box>
-      <Text>{t('copy-right')}</Text>
+      <Box direction='row' gap='small'>
+        <Text>{t('copy-right')}</Text>
+        <Anchor href='https://beian.miit.gov.cn' label='沪ICP备2021027599号'/>
+      </Box>
     </Box>
   )
 }
