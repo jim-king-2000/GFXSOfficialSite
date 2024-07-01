@@ -1,5 +1,8 @@
 function MyHome() {
-  return <div>网站建设中……</div>
+  return (
+    <>
+      <div>联系方式：13122058725</div>
+      <div>邮箱：haiyang.wang@gfanxvision.com</div>
+    </>
+  );
 }
-
-export default MyHome
