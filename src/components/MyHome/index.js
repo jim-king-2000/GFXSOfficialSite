@@ -1,4 +1,4 @@
-export default function MyHome() {
+function MyHome() {
   return (
     <>
       <div>联系方式：13122058725</div>
@@ -6,3 +6,5 @@ export default function MyHome() {
     </>
   );
 }
+
+export default MyHome;
